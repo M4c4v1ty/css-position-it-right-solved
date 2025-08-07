@@ -49,6 +49,7 @@
 
   position: absolute;
   bottom:50%;
+  right: 35%;
   
 }
 
@@ -60,8 +61,8 @@
   border-radius: 50%;
   
   position: absolute;
-  bottom: 45%;
-  left:22%;
+  bottom: 50%;
+  left:35%;
 }
 
 
@@ -106,8 +107,6 @@
 .robot-hair-style {
   width: 300px;
   height: 100px;
-  /* background-color: white;
-  border: 2px solid black; */
 
   position: absolute;
   bottom:68%;
