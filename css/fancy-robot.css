@@ -1,7 +1,13 @@
 .robot-container {
-    background-color: blueviolet;
     height: 100vh;
-    width: 100%;
+    width: 100vw;  
+    
+    background-image: url(https://picsum.photos/200/300/?blur=2);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+  
 
     position: relative;
 
@@ -14,7 +20,7 @@
     border-radius: 10%;
     border: 10px dotted; 
     position:relative;
-    background-color: rgb(40, 136, 220);
+    background-color: #C4E0E5;
 }
 
 .robot-eye-left {
@@ -22,18 +28,17 @@
     height: 65px;
     background-color: tomato;
     margin:18%;
-    /* position: absolute;
-    top: 80px;
-    left: 50px; */
     border-radius: 20%; 
 }
 
 .robot-eye-right {
     width:60px;
     height:30px;
-    border:1px solid yellow;
-    background: rgb(224, 15, 161);
     border-radius: 50%;
+    
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    
+    
     position: absolute;
     top: 30%;
     left: 65%;
@@ -42,23 +47,39 @@
 }
 
 .robot-ear-left {
-  width: 60px;
-  height: 60px;
-  background: rgb(255, 60, 0);
-  border-radius: 50%;
 
-  position: absolute;
-  bottom:50%;
-  right: 35%;
+      width: 0px;
+      height: 0px;
+      border-right: 30px solid transparent;
+      border-top: 30px solid rgb(255, 0, 144);
+      border-left: 30px solid transparent;
+      border-bottom: 30px solid red;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+  
+
+      position: absolute;
+      bottom:50%;
+      right: 35%;
   
 }
 
 
 .robot-ear-right {
-  width: 60px;
-  height: 60px;
-  background: lime;
-  border-radius: 50%;
+
+      width: 0px;
+      height: 0px;
+      border-right: 30px solid transparent;
+      border-top: 30px solid red;
+      border-left: 30px solid transparent;
+      border-bottom: 30px solid rgb(255, 166, 0);
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+    
   
   position: absolute;
   bottom: 50%;
@@ -86,11 +107,11 @@
   display: flex;
   background-color: rgb(222, 181, 181);
   border: 3px solid #d00a0a;
-  border-radius: 50% 100% ; /* bottom curve only */
+  border-radius: 50%/ 30% ; 
   overflow: hidden;
 
   position: absolute;
-  top: 200px; /* adjust based on face */
+  top: 200px; 
   left: 50%;
   transform: translateX(-50%);
 }
@@ -131,10 +152,14 @@
   width:50px;
   height: 80%;
   background-color: #3ea756;
+  /* how can I change the transparency of this element */
 }
 
 .robot-hair-three {
   width: 50px;
   height: 100%;
-  background-color: #b551b2;
+  background-image: url(https://picsum.photos/id/870/200/300?grayscale&blur=2);
+  background-size: cover;
+  background-position: center;
+
 }

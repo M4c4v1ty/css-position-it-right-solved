@@ -16,6 +16,8 @@
 
 main {
   margin-top:180px;
+  margin-bottom: 100px;
+
   
 
   
@@ -77,10 +79,10 @@ footer {
 }
 
 .footer-content {
-  width: 100%;
-  max-width: 900px;
+  width: 80%;
+  /* max-width: 900px; */
   display: flex;
-  gap: 50px;
+  /* gap: px; */
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
