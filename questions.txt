@@ -1,0 +1,2 @@
+How can I set the picture for the fancy robot the to fit the viewport and not have it zoomed?
+The scroll for legal-page doesn't clear the last line. I thought using the margin would work like it did for the top.

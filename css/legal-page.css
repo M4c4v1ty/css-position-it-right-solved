@@ -19,7 +19,7 @@ main {
   margin-bottom: 100px;
 
   
-
+/* The end of the scroll covers up the last line, I have tried to use the margin like it worked for the top. It did't work */
   
 }
 
@@ -80,9 +80,9 @@ footer {
 
 .footer-content {
   width: 80%;
-  /* max-width: 900px; */
+  max-width: 900px;
   display: flex;
-  /* gap: px; */
+  gap: px;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;

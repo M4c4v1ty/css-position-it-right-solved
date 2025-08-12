@@ -6,9 +6,8 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: fixed;
+    /* How can I set the picture the to fit the viewport and not have it zoomed */
   
-
     position: relative;
 
 }
@@ -50,14 +49,10 @@
 
       width: 0px;
       height: 0px;
-      border-right: 30px solid transparent;
-      border-top: 30px solid rgb(255, 0, 144);
-      border-left: 30px solid transparent;
-      border-bottom: 30px solid red;
-      border-top-left-radius: 60px;
-      border-top-right-radius: 60px;
-      border-bottom-left-radius: 60px;
-      border-bottom-right-radius: 60px;
+      border:30px solid rgb(255, 89, 0) ;
+      border-radius: 30px;
+      border-right-color: transparent;
+      border-left-color: transparent;
   
 
       position: absolute;
@@ -71,15 +66,10 @@
 
       width: 0px;
       height: 0px;
-      border-right: 30px solid transparent;
-      border-top: 30px solid red;
-      border-left: 30px solid transparent;
-      border-bottom: 30px solid rgb(255, 166, 0);
-      border-top-left-radius: 60px;
-      border-top-right-radius: 60px;
-      border-bottom-left-radius: 60px;
-      border-bottom-right-radius: 60px;
-    
+      border: 30px solid rgb(208, 255, 0);
+      border-right-color: transparent;
+      border-left-color: transparent ;
+
   
   position: absolute;
   bottom: 50%;
