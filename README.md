@@ -4,7 +4,7 @@
 
 In this activity, you'll have the opportunity to design a comical robot face using various shapes and applying absolute and relative positioning. Feel free to unleash your creativity and use vibrant colors to make the robot face stand out!
 
-Take a look at the provided image of a fancy robot face in `/assets/images/fancy-robot-solved-example.png` for inspiration. You can either replicate the example or let your imagination run wild to create unique shapes and experiment with different colors.
+Take a look at the provided image of a fancy robot face in `/assets/images/fancy-robot-solved-example.png` for inspiration. You can either replicate the example or let your imagination run wild to create unique shapes and experiment with different colors and patterns.
 
 Then, you will be enhancing the design of the legal information page to deliver an exceptional user experience for smooth scrolling through lengthy content. Utilize your expertise in fixed and sticky positioning to ensure that users can easily read and navigate legal documents.
 
